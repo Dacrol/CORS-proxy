@@ -1,9 +1,13 @@
 {
   "name": "CORS-proxy",
   "version": "0.0.0",
-  "main": "server.js",
+  "main": "proxy.js",
   "repository": "https://github.com/Dacrol/CORS-proxy.git",
   "author": "Dacrol",
   "license": "UNLICENSED",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
 }
