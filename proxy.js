@@ -1,7 +1,9 @@
 const express = require('express')
 const request = require('request')
 
-const target = 'sydsvenskan.se'
+const argument = process.argv[2]
+
+const target = argument || 'sydsvenskan.se'
 
 const app = express()
 
